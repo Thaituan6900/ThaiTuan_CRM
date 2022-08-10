@@ -1,0 +1,230 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.topbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /*min-height: 70px;*/
+    background: #1e88e5;
+    box-shadow: 5px 0px 10px rgb(0 0 0 / 50%);
+    z-index: 1;
+}
+.hide{
+    
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer */
+-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+-webkit-user-select: none; /* Chrome, Safari, and Opera */
+-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+
+}
+
+.navbar-header {
+    color: #fff;
+    padding: 0px 20px 0px;
+    font-weight: 700;
+}
+
+.navbar-account {
+    padding: 0px 20px 0px;
+    color: #fff !important; 
+}
+
+.navbar-account > a {
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-account.active > a,.navbar-account>a.hover {
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-account > div {
+   background-color: #888888;
+	display: none;
+	width: 110px;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+}
+.navbar-account:hover > div {
+  display: block;
+	min-width: 110px; width: auto;
+}
+.navigation {
+	float: right;
+	list-style: none;
+	margin: 8px 0 0;
+	padding: 0;
+}
+
+.navigation li {
+	 padding: 0px 20px 0px;
+    color: #fff !important; 
+    float: left;
+	margin-left: 10px;
+	position: relative;
+}
+.navigation li > a {
+	 color: #fff;
+    font-size: 30px;
+    
+	font: bold  Times, "Times New Roman", serif;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+	text-transform: uppercase;
+}
+.navigation li.active > a, .navigation > a:hover {
+	color: #fff;
+}
+.navigation li > div {
+	background-color: #888888;
+	display: none;
+	width: 210px;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+}
+.navigation li:hover > div {
+	display: block;
+	min-width: 110px; width: auto;
+}
+.navigation li > div a {
+	color: #b8c6ac;
+	font: bold 13px/24px "Times New Roman", Times, serif;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+}
+.navigation li > div a:hover {
+	color: #fff;
+}
+
+.container {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding-left: 0;
+    position: relative;
+}
+
+.sidebar {
+    width: 222px;
+    height: 100vh;
+    box-shadow: 5px 0px 10px rgb(0 0 0 / 50%);
+    border-radius: 4px;
+    /*position: fixed;*/
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar ul li {
+    padding: 12px;
+}
+
+.sidebar ul li a {
+    color: #607d8b;
+    font-size: 15px;
+    padding: 16px;
+    font-weight: 700;
+}
+
+.sidebar ul li a:hover {
+    color: #26c6da;
+    text-decoration: underline;
+}
+
+.sidebar-option{
+
+}
+
+.home-content {
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    max-width: 100%;
+    /*width: 1130px;*/
+    width: calc(100vw - 280px);
+    margin: 0 auto;
+    border-color: #d7dfe3;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 5%);
+}
+
+.card-body {
+    position: relative;
+}
+
+.title-color {
+    color: #009efb; 
+}
+
+.input-find {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.searchbox:hover {
+    background: rgb(250, 255, 189);
+}
+
+.btn-search {
+    background: #7460ee;
+    color: #fff;
+}
+
+.btn-search:hover {
+    color: #fff;
+    box-shadow: 0 14px 26px -12px rgb(116 96 238 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(116 96 238 / 20%);
+}
+
+.btn-modify {
+    background: #26c6da;
+    color: #fff;
+}
+
+.btn-reset {
+    background: #939393;
+    color: #fff;
+}
+
+.table-data {
+    margin-top: 10px;
+}
+
+thead {
+    color: #67757c;
+}
+
+.form-update {
+    width: 600px;
+    margin: auto;
+    border-radius: 5px;
+    /*background-color: #f2f2f2;*/
+    padding: 20px;
+}
+
+.form-buttons {
+    text-align: center;
+    margin: 15px 10px -15px;
+}
+
+.form-buttons > input:hover {
+    color: #fff;
+    box-shadow: 0 14px 26px -12px rgb(116 96 238 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(116 96 238 / 20%);
+}
